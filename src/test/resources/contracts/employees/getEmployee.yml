@@ -1,0 +1,16 @@
+request:
+  method: GET
+  urlPath: /api/employee
+
+response:
+  status: 200
+  headers:
+    Content-Type: application/json
+  body:
+    name: "Juan"
+    lastname: "Rodriguez"
+    address: "Street One"
+    role: "Manager"
+    age: 35
+    telephone: 4045271
+    id: 1
